@@ -1,0 +1,9 @@
+void main() {
+  dynamic x = 3;
+  int y = 9;
+  String t = "Dart is great. I'm learning";
+  
+  print(x);
+  print(y);
+  print(t);
+}
