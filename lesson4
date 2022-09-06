@@ -1,0 +1,25 @@
+void main() {
+  int x = 7;
+  int y = 5;
+  int product = x * y;
+  
+  print(product);
+  
+  print(5 + 5);
+  print("John " + "Smith");
+  
+  print(5 + 7);          
+  print(10 - 8);         
+  print(8 * 8);          
+  print(10 / 5);         
+  print(10%2);           
+  print((5 * 5) + 5 / 2);
+  
+  print(x);
+  
+  x++;
+  print(x);
+  
+  x--;
+  print(x);
+}
