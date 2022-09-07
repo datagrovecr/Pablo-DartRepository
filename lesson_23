@@ -16,8 +16,8 @@ void main(){
   print(compareStrings(name2, name3, caseSensitive: true));
   
   print(name3.toUpperCase());
-  print(name3.substring(2));       // result: "ilip"
-  print(name3.substring(2, 4));    // result: "il"
+  print(name3.substring(2));       
+  print(name3.substring(2, 4));    
   
   print(capitalize(name3));
   
