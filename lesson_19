@@ -1,5 +1,3 @@
-*More About Function Parameters*
-
 void main() {
   print("Firs run: ");
   myFunction();
