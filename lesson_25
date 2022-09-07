@@ -1,0 +1,24 @@
+void main() {
+  List<String> students = ["Mary","Jon", "Sally"];
+
+  String userInput = "Bob";
+
+  students.add(userInput);
+
+  print(students);
+
+  students.remove("Jon");
+  print(students);
+  
+  students.sort();
+  print(students);
+  
+  String first = students.first;
+  String last = students.last;
+  print("The firs is $first and the last $last");
+
+  printList(students);
+  
+  printList(["Dart", "JavaScript", "TypeScript", "C++"]);
+
+}
