@@ -1,4 +1,4 @@
-oid main() {
+void main() {
   num score = 89;
   String grade= "";
   String rating = "";
