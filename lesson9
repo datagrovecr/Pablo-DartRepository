@@ -1,0 +1,22 @@
+void main() {
+  bool b = true;
+  
+  if (b) {
+    print("It's true!");
+  } else {
+    print("It's not true. (It's false.)");
+  }
+  
+  bool isLightOn = false;
+  
+  print(isLightOn);
+  print("The light is on. That´s $isLightOn");
+  
+  // someone presses the button ON
+  isLightOn = !isLightOn;
+  print("The light is on. That´s $isLightOn");
+
+  // someone presses the button OffTr
+  isLightOn = !isLightOn;
+  print("The light is on. That´s $isLightOn");
+}
