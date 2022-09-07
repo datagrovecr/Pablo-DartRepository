@@ -1,0 +1,10 @@
+void main() {
+  String firstName = "Pablo";
+  String lastName = "Campos";
+  final String name = "$firstName $lastName";
+  
+  final age = 19;
+
+  print(name);
+  print(age);
+}
