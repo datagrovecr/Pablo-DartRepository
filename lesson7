@@ -1,0 +1,17 @@
+void main() {
+  
+  // input values
+  num f = 32;
+  num c = 100;
+  
+  
+  num convertedC = (f - 32) / 1.8;
+  num convertedF = 1.8 * c + 32;
+  num convertedCK = c * 274.15;
+  num convertedFK = (f – 32)* 5/9 + 273.15;
+F  
+  
+  print("$f degrees Fahrenheit is $convertedC degrees Celsius.");
+  print("$c degrees Celsius is $convertedF degrees Fahrenheit.");
+  print("$c degrees Celsius is $convertedCK degrees in Kevin scale");
+  print("$f degrees Fahrenheit is is $convertedFK degrees in Kevin scale");
