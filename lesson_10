@@ -5,8 +5,7 @@ void main() {
   } else {
     print("The world makes no sense.");
   }
-  
-  print("________________________________________");
+
   
   bool result1 = 1 < 2;
   bool result2 = true;
@@ -24,8 +23,7 @@ void main() {
   print("3. 3.58 > 3: ${3.58 > 3}");
   print("4. 20 >= 85: ${20 >= 85}");
   print("4. 145 < 146: ${145 < 146}");
-  
-  print("________________________________________");
+
   
   String password = "iamawesome";
   String userInput = "iamawsome";
@@ -36,8 +34,7 @@ void main() {
   else {
     print("Password incorrect. Authorities notified.");
   }
-  
-  print("________________________________________");
+
   
   int drinkingAge = 21;
   int userAge = 23;
