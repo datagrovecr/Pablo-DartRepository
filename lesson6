@@ -5,7 +5,7 @@ void main() {
   print(message1);
   print(message2);
   
-  print("Helo, " "World.");
+  print("Helo, World.");
   
   print("\"She isn't worth it,\" his friend replied."); 
 
