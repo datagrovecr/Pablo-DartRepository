@@ -1,0 +1,71 @@
+1.
+https://www.codewars.com/kata/56cd44e1aa4ac7879200010b/train/dart
+Is the string uppercase?
+Task
+Create a method to see whether the string is ALL CAPS.
+
+Examples (input -> output)
+"c" -> False
+"C" -> True
+"hello I AM DONALD" -> False
+"HELLO I AM DONALD" -> True
+"ACSKLDFJSgSKLDFJSKLDFJ" -> False
+"ACSKLDFJSGSKLDFJSKLDFJ" -> True
+In this Kata, a string is said to be in ALL CAPS whenever it does not contain any lowercase letter so any string containing no letters at all is trivially considered to be in ALL CAPS.
+
+Code:
+bool isUpperCase(String str) {
+  String str1 = (str.toUpperCase());
+  
+  if( str1 == str){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+
+2.
+https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/dart
+
+Complete the solution so that it reverses the string passed into it.
+
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+
+String solution(str) {
+  return str.split('').reversed.join('');
+}
+
+3.
+https://www.codewars.com/kata/5d50e3914861a500121e1958/train/dart
+Your task is to add up letters to one letter.
+
+The function will be given a list of letters, each one being a letter to add.
+
+Notes:
+Letters will always be lowercase.
+Letters can overflow (see second to last example of the description)
+If no letters are given, the function should return 'z'
+Examples:
+addLetters(['a', 'b', 'c']) = 'f'
+addLetters(['a', 'b']) = 'c'
+addLetters(['z']) = 'z'
+addLetters(['z', 'a']) = 'a'
+addLetters(['y', 'c', 'b']) = 'd' // notice the letters overflowing
+addLetters(<String>[]) = 'z'
+
+
+List<String> letters = ['a', 'b', 'c'];
+String addLetters(List<String> letters) {
+  var i = 1;
+  var letter = "";
+  var asciiFirst = List(i).charCodeAt(0);
+  
+  
+  //not ended, searching how to resolve it
+  
+  
+  return '';
+}
+
